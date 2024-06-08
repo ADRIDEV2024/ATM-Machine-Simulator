@@ -23,8 +23,7 @@ class CardHolder():
 
 # SETTER METHODS 
 
-    def set_cardNum(self,NewVal):
-        self.cardNum = NewVal
+   
     def get_pin(self,NewVal):
         self.pin = NewVal
     def get_firstname(self,Newval):
