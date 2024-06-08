@@ -2,7 +2,7 @@
 class CardHolder():
     def __init__(self,cardNum,pin,firstname,lastname,balance):
         
-        
+        self.cardnum = cardnum
         self.pin = pin
         self.firstname = firstname
         self.lastname = lastname
