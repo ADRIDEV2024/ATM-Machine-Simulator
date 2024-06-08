@@ -6,7 +6,7 @@ def print_menu():
   print("1.Deposit\n")
   print("2.Withdraw\n")
   print("3.Show Balance\n")
-  print("4.Exit"\n")
+  print("4.Exit\n")
   
   
 def deposit(cardholder):
@@ -15,7 +15,7 @@ def deposit(cardholder):
         cardholder.set_balance(cardholder.get_balance()+ deposit)
         print("Successful operation, your new balance is: ", str(cardholder.get_balance()))
         
-    except Exception as error :
+    except Typerror as error :
         print("Invalid input", error)
         
 
