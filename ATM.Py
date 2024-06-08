@@ -6,7 +6,7 @@ def print_menu():
   print("1.Deposit\n")
   print("2.Withdraw\n")
   print("3.Show Balance\n")
-  print("4.Exit")
+  
   
 def deposit(cardholder):
     try :
