@@ -12,12 +12,16 @@ class CardHolder():
     
     def get_cardNum(self):
         return self.cardNum
+        
     def get_pin(self):
         return self.pin
+        
     def get_firstname(self):
         return self.firstname
+        
     def get_lastname(self):
         return self.lastname
+        
     def get_balance(self):
         return self.balance
 
