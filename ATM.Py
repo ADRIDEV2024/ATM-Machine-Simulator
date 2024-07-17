@@ -1,7 +1,7 @@
 from cardholder import cardholder
 
 def print_menu():
-  Print Options to the user 
+ # Print Options to the user 
   print("Please choose one of the following options:\n")
   print("1.Deposit\n")
   print("2.Withdraw\n")
@@ -10,6 +10,7 @@ def print_menu():
   
   
 def deposit(cardholder):
+
     try :
         deposit = float(input("How much money would you like to deposit: "))
         cardholder.set_balance(cardholder.get_balance()+ deposit)
@@ -20,6 +21,7 @@ def deposit(cardholder):
         
 
 def withdraw (cardholder):
+
     try :
         withdraw = float(input("How much money would you like to withdraw: "))
         # Check if a user has enough money
