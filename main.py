@@ -7,6 +7,11 @@ class CardHolder():
         self.firstname = firstname
         self.lastname = lastname
         self.balance = balance 
+
+
+
+
+    
         
 # GETTER METHODS
     
@@ -29,12 +34,16 @@ class CardHolder():
 
     def set_cardNum(self,NewVal):
         self.cardNum = NewVal
+        
     def get_pin(self,NewVal):
         self.pin = NewVal
+        
     def get_firstname(self,Newval):
         self.firstname = Newval
+        
     def get_lastname(self,NewVal):
         self.lastname = NewVal
+        
     def get_balance(self,NewVal):
         self.balance = NewVal 
         
