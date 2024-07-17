@@ -16,8 +16,8 @@ def deposit(cardholder):
         cardholder.set_balance(cardholder.get_balance()+ deposit)
         print("Successful operation, your new balance is: ", str(cardholder.get_balance()))
         
-    except Typerror as error :
-        print("Invalid input", error)
+    except Typerror as e :
+        print("Invalid input", e)
         
 
 def withdraw (cardholder):
@@ -31,8 +31,8 @@ def withdraw (cardholder):
              cardholder.set_balance()
              print("Thanks you :)")
             
-    except TypeError as error :
-        print("Invalid input", error)
+    except TypeError as e :
+        print("Invalid input", e)
         
 def check_balance(cardholder):
     print("Your current balance: ", cardholder.get_balance())
