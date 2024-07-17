@@ -8,11 +8,7 @@ class CardHolder():
         self.lastname = lastname
         self.balance = balance 
 
-
-
-
-    
-        
+     
 # GETTER METHODS
     
     def get_cardNum(self):
